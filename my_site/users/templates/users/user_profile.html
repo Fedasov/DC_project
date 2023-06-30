@@ -17,6 +17,7 @@
     {% else %}
         <img src="{% static 'inopolis/img/pustay.png' %}" height=100 width=100><br><br>
     {% endif %}
+        <p><strong>Date of birth:</strong> {{ profile.date_of_birth }}</p><br><br>
       <p><strong>Username:</strong> {{ page_user }}</p><br><br>
       <p><strong>Bio:</strong> {{ profile.bio }}</p><br><br>
       {% if profile.instagram %}

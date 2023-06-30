@@ -22,7 +22,7 @@ class UserRegisterForm(UserCreationForm):
 class ProfileForm(ModelForm):
     class Meta:
         model = Profile
-        fields = ['bio', 'profile_pic', 'instagram']
+        fields = ['profile_pic', 'date_of_birth', 'bio', 'instagram']
 
 
 # class EditProfileForm(UserChangeForm):
